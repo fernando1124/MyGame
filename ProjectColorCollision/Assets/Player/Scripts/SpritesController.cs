@@ -27,5 +27,13 @@ namespace game.player
             spriteRenderer.flipX = (movementController.isMovingInX() & movementController.isMovingLeft());
             spriteRenderer.flipY = (movementController.isMovingInY() & movementController.isMovingUp());
         }
+
+        public void updateColor(Color color) {
+            spriteRenderer.color = color;
+        }
+
+        public Color getColor() {
+            return this.spriteRenderer.color;
+        }
     }
 }

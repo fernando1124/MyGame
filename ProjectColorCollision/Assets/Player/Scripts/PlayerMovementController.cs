@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace game.player
 {
-    public class PlayerMovementController : MonoBehaviour, GenericPlayerComponent
+    public class PlayerMovementController : MonoBehaviour
     {
         private float speed;
 

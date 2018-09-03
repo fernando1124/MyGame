@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using game.player;
 
-public class AnimationController : MonoBehaviour {
+public class AnimationController : MonoBehaviour, FinishableComponent {
     private const string MOVINGX_PARAM = "MovingX";
     private const string MOVINGY_PARAM = "MovingY";
 
@@ -14,6 +14,8 @@ public class AnimationController : MonoBehaviour {
     {
         animator = this.gameObject.GetComponent<Animator>();
         movementController = this.gameObject.GetComponent<PlayerMovementController>();
+
+        GameController.getInstance().suscribeToGame(this);
     }
 	
 	void Update () {
@@ -24,5 +26,11 @@ public class AnimationController : MonoBehaviour {
     {
         animator.SetBool(MOVINGX_PARAM, movementController.isMovingInX());
         animator.SetBool(MOVINGY_PARAM, movementController.isMovingInY());
+    }
+
+    public bool finish() {
+        animator.enabled = false;
+
+        return true;
     }
 }

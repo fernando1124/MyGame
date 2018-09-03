@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace game.player
 {
-    public class SpritesController : MonoBehaviour
+    public class SpritesController : MonoBehaviour, FinishableComponent
     {
         private SpriteRenderer spriteRenderer;
         private PlayerMovementController movementController;
@@ -13,6 +13,8 @@ namespace game.player
         {
             spriteRenderer = this.gameObject.GetComponent<SpriteRenderer>();
             movementController = this.gameObject.GetComponent<PlayerMovementController>();
+
+            GameController.getInstance().suscribeToGame(this);
         }
 
 
@@ -34,6 +36,11 @@ namespace game.player
 
         public Color getColor() {
             return this.spriteRenderer.color;
+        }
+
+        public bool finish() {
+            this.enabled = false;
+            return true;
         }
     }
 }

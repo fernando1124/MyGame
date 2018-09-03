@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemySpawnController : MonoBehaviour {
+public class EnemySpawnController : MonoBehaviour, FinishableComponent {
+    private const string FN_RESTORE_SPAWN = "restoreSpawn";
 
     private Transform[] spawnPoints;
     private AudioSource audioController;
@@ -14,21 +15,15 @@ public class EnemySpawnController : MonoBehaviour {
         spawnPoints = this.GetComponentsInChildren<Transform>();
         audioController = this.GetComponent<AudioSource>();
         audioProcessor = this.GetComponent<AudioProcessor>();
+
+        GameController.getInstance().suscribeToGame(this);
     }
 
     void Start() {
         audioController.Play();
         audioProcessor.onSpectrum.AddListener(spawnOnSnareDrum);
-        InvokeRepeating("restoreSpawn", 1f, 1f);
+        InvokeRepeating(FN_RESTORE_SPAWN, 1f, 1f);
     }
-
-	// Update is called once per frame
-	//void Update () {        
- //       if (currentEnemy != EnemyData.EMPTY_ENEMY & audioController.time >= currentEnemy.lowerBound & audioController.time <= currentEnemy.higherBound) {
- //           spawn(currentEnemy);
- //           currentEnemy = enemyProvider.provide();
- //       }
- //   }
 
     void restoreSpawn() { spawned = false; }
 
@@ -84,5 +79,12 @@ public class EnemySpawnController : MonoBehaviour {
     private void spawnEnemyAt(EnemyData enemy, Vector3 position) {
         GameObject instance = Instantiate(Resources.Load<GameObject>(enemy.getPrefab()), position, Quaternion.identity);
         instance.GetComponentInChildren<SpriteRenderer>().color = enemy.getColor();
+    }
+
+    public bool finish() {
+        audioController.enabled = false;
+        audioProcessor.enabled = false;
+        CancelInvoke(FN_RESTORE_SPAWN);
+        return true;
     }
 }

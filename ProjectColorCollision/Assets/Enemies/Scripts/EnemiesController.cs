@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemiesController : MonoBehaviour {
+public class EnemiesController : MonoBehaviour, FinishableComponent {
     private const string PLAYER_OBJECT_NAME = "Player";
     private const string SCREEN_EDGE_DESTROY = "DestroyEdge";
     private const string PLAYER_TAG = "Player";
@@ -12,6 +12,8 @@ public class EnemiesController : MonoBehaviour {
 
     void Awake() {
         player = GameObject.Find(PLAYER_OBJECT_NAME);
+
+        GameController.getInstance().suscribeToGame(this);
     }
 
 	// Use this for initialization
@@ -33,9 +35,10 @@ public class EnemiesController : MonoBehaviour {
             GameObject.Destroy(this.gameObject);
         }
     }
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
+    public bool finish() {
+        
+       
+        return true;
+    }
 }

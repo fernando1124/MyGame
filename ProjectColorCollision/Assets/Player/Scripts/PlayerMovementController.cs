@@ -4,9 +4,13 @@ using UnityEngine;
 
 namespace game.player
 {
-    public class PlayerMovementController : MonoBehaviour
+    public class PlayerMovementController : MonoBehaviour, FinishableComponent
     {
         private float speed;
+
+        void Awake() {
+            GameController.getInstance().suscribeToGame(this);
+        }
 
         void Update()
         {
@@ -58,6 +62,11 @@ namespace game.player
         public bool isMovingUp()
         {
             return Input.GetKey(KeyCode.UpArrow);
+        }
+
+        public bool finish() {
+            this.enabled = false;
+            return true;
         }
     }
 }

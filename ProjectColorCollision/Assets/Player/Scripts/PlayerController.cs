@@ -4,8 +4,9 @@ using UnityEngine;
 
 using game.player;
 
-public class PlayerController : MonoBehaviour {
+public class PlayerController : MonoBehaviour, FinishableComponent {
 
+    private int hitsCounter;
     public float speed;
 
     private PlayerMovementController playerMovementController;
@@ -14,11 +15,13 @@ public class PlayerController : MonoBehaviour {
 
     void Awake()
     {
+        hitsCounter = 0;
         playerMovementController = this.gameObject.AddComponent<PlayerMovementController>();
         animationController = this.gameObject.AddComponent<AnimationController>();
         spritesController = this.gameObject.AddComponent<SpritesController>();
 
         configComponents();
+        GameController.getInstance().suscribeToGame(this);
     }
 
 	void OnCollisionEnter2D(Collision2D collision) {
@@ -26,10 +29,23 @@ public class PlayerController : MonoBehaviour {
         Color blend = ColorUtil.getInstance().calculateBlend(spritesController.getColor(), enemyColor);
 
         spritesController.updateColor(blend);
+        hitsCounter++;
+
+        if(hitsCounter >= 3) {
+            GameController.getInstance().finishGame();
+        }
     }
 
     private void configComponents()
     {
         playerMovementController.setSpeed(speed);
+    }
+
+    public bool finish() {
+        playerMovementController.enabled = false;
+        animationController.enabled = false;
+        spritesController.enabled = false;
+
+        return true;
     }
 }

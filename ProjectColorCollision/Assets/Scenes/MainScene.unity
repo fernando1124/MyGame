@@ -124,7 +124,7 @@ GameObject:
   m_Layer: 0
   m_Name: SpawnPoint-3
   m_TagString: Untagged
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 491110741}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 555fe7dd8c51210458c1552faad9c12d, type: 3}
+  m_Script: {fileID: 11500000, guid: 1a3d9c3f28521be479c817b23d1c506e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &964020851
@@ -440,7 +440,7 @@ GameObject:
   m_Layer: 0
   m_Name: SpawnPoint-1
   m_TagString: Untagged
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -706,7 +706,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1916689708}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 555fe7dd8c51210458c1552faad9c12d, type: 3}
+  m_Script: {fileID: 11500000, guid: 1a3d9c3f28521be479c817b23d1c506e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1977689370
@@ -720,7 +720,7 @@ GameObject:
   m_Layer: 0
   m_Name: SpawnPoint-2
   m_TagString: Untagged
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -748,7 +748,7 @@ GameObject:
   m_Layer: 0
   m_Name: SpawnPoint-4
   m_TagString: Untagged
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1

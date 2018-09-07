@@ -12,7 +12,6 @@ public class EnemiesController : MonoBehaviour, FinishableComponent {
 
     void Awake() {
         player = GameObject.Find(PLAYER_OBJECT_NAME);
-
         GameController.getInstance().suscribeToGame(this);
     }
 

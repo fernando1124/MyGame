@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyFactory {
 
-    private const string BASIC_ENEMY_PREFAB = "Enemies/Prefab/FrontEnemy";
+    private const string BASIC_ENEMY_PREFAB = "Enemies/Prefab/Enemy";
     private static Color[] colors = new Color[]{ Color.red, Color.green, Color.blue };
 
 	public static EnemyData createBasicEnemy() {

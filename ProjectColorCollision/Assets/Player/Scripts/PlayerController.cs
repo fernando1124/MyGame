@@ -25,6 +25,7 @@ public class PlayerController : MonoBehaviour, FinishableComponent {
     }
 
 	void OnCollisionEnter2D(Collision2D collision) {
+        Debug.Log("COLLISION!!");
         Color enemyColor = collision.gameObject.GetComponentInChildren<SpriteRenderer>().color;
         Color blend = ColorUtil.getInstance().calculateBlend(spritesController.getColor(), enemyColor);
 

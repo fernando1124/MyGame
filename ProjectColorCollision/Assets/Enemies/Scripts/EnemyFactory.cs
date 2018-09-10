@@ -4,13 +4,11 @@ using UnityEngine;
 
 public class EnemyFactory {
 
-    private const string BASIC_ENEMY_PREFAB = "Enemies/Prefab/Enemy";
-    private static Color[] colors = new Color[]{ Color.red, Color.green, Color.blue };
-
 	public static EnemyData createBasicEnemy() {
-        return new EnemyData(BASIC_ENEMY_PREFAB, 1, 0f, 0f, colors[Random.Range(0, 3)]);
+        return new EnemyData(generateColor(), new Vector3(0, 0, Random.Range(0, 360)));
     }
 
-
-
+    private static Color generateColor() {
+        return Random.ColorHSV(0, 1, 0, 1, 0.5f, 1);
+    }
 }

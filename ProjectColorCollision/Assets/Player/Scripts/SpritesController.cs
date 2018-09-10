@@ -42,5 +42,9 @@ namespace game.player
             this.enabled = false;
             return true;
         }
+
+        public SpriteRenderer getSpriteRenderer() {
+            return this.spriteRenderer;
+        }
     }
 }

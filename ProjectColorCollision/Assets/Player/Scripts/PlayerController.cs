@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour, FinishableComponent {
     private PlayerMovementController playerMovementController;
     private AnimationController animationController;
     private SpritesController spritesController;
+    private BlinkRoutine blinkRoutine;
 
     void Awake()
     {
@@ -19,17 +20,15 @@ public class PlayerController : MonoBehaviour, FinishableComponent {
         playerMovementController = this.gameObject.AddComponent<PlayerMovementController>();
         animationController = this.gameObject.AddComponent<AnimationController>();
         spritesController = this.gameObject.AddComponent<SpritesController>();
+        blinkRoutine = new BlinkRoutine(this);
 
         configComponents();
         GameController.getInstance().suscribeToGame(this);
     }
 
 	void OnCollisionEnter2D(Collision2D collision) {
-        Debug.Log("COLLISION!!");
-        Color enemyColor = collision.gameObject.GetComponentInChildren<SpriteRenderer>().color;
-        Color blend = ColorUtil.getInstance().calculateBlend(spritesController.getColor(), enemyColor);
-
-        spritesController.updateColor(blend);
+        blendColor(collision.gameObject.GetComponentInChildren<SpriteRenderer>().color);
+        startFlickering();
         hitsCounter++;
 
         if(hitsCounter >= 3) {
@@ -37,9 +36,18 @@ public class PlayerController : MonoBehaviour, FinishableComponent {
         }
     }
 
-    private void configComponents()
-    {
+    private void configComponents() {
         playerMovementController.setSpeed(speed);
+    }
+
+    private void blendColor(Color enemyColor) {
+        Color blend = ColorUtil.getInstance().calculateBlend(spritesController.getColor(), enemyColor);
+        spritesController.updateColor(blend);
+    }
+
+    private void startFlickering() {
+        this.gameObject.GetComponent<CircleCollider2D>().enabled = false;
+        blinkRoutine.start(5, 0.2f);
     }
 
     public bool finish() {

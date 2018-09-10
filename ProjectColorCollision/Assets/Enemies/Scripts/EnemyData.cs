@@ -1,38 +1,37 @@
 ﻿using UnityEngine;
 
 public class EnemyData {
-    //private const string BASIC_ENEMY_PREFAB = "Enemies/Prefab/UpRightEnemy";
-    private const string BASIC_ENEMY_PREFAB = "Enemies/Prefab/FrontEnemy";
+    private const string BASIC_ENEMY_PREFAB = "Enemies/Prefab/Enemy";
     public const EnemyData EMPTY_ENEMY = null;
 
     private string prefab;
-    private int quantity;
     private Color color;
+    private Vector3 rotation;
 
     public float lowerBound;
     public float higherBound;
 
 
-    public EnemyData(float lowerBound, float higherBound) : this(BASIC_ENEMY_PREFAB, 1, lowerBound, higherBound, Color.red) { }
-    public EnemyData(int quantity, float lowerBound, float higherBound) : this(BASIC_ENEMY_PREFAB, quantity, lowerBound, higherBound, Color.red) { }
+    public EnemyData(float lowerBound, float higherBound) : this(BASIC_ENEMY_PREFAB, lowerBound, higherBound, Color.red, Vector3.down) { }
+    public EnemyData(Color color, Vector3 rotation) : this(BASIC_ENEMY_PREFAB, 0, 0, color, rotation) { }
 
-    public EnemyData(string prefab, int quantity, float lowerBound, float higherBound, Color color) {
+    public EnemyData(string prefab, float lowerBound, float higherBound, Color color, Vector3 rotation) {
         this.prefab = prefab;
-        this.quantity = quantity;
         this.lowerBound = lowerBound;
         this.higherBound = higherBound;
         this.color = color;
+        this.rotation = rotation;
     }
 
     public string getPrefab() {
         return this.prefab;
     }
 
-    public int getQuantity() {
-        return this.quantity;
-    }
-
     public Color getColor() {
         return this.color;
+    }
+
+    public Vector3 getRotation() {
+        return this.rotation;
     }
 }

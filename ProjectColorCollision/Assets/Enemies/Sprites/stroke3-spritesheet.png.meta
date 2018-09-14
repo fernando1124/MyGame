@@ -1,0 +1,1097 @@
+fileFormatVersion: 2
+guid: fb972a17451feb84a8ddf631014b79f3
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: stroke3-spritesheet_1
+    21300002: stroke3-spritesheet_2
+    21300004: stroke3-spritesheet_3
+    21300006: stroke3-spritesheet_4
+    21300008: stroke3-spritesheet_5
+    21300010: stroke3-spritesheet_11
+    21300012: stroke3-spritesheet_13
+    21300014: stroke3-spritesheet_15
+    21300016: stroke3-spritesheet_17
+    21300018: stroke3-spritesheet_19
+    21300020: stroke3-spritesheet_21
+    21300022: stroke3-spritesheet_24
+    21300024: stroke3-spritesheet_27
+    21300026: stroke3-spritesheet_30
+    21300028: stroke3-spritesheet_34
+    21300030: stroke3-spritesheet_38
+    21300032: stroke3-spritesheet_42
+    21300034: stroke3-spritesheet_45
+    21300036: stroke3-spritesheet_48
+    21300038: stroke3-spritesheet_51
+    21300040: stroke3-spritesheet_54
+    21300042: stroke3-spritesheet_57
+    21300044: stroke3-spritesheet_60
+    21300046: stroke3-spritesheet_63
+    21300048: stroke3-spritesheet_66
+    21300050: stroke3-spritesheet_68
+    21300052: stroke3-spritesheet_70
+    21300054: stroke3-spritesheet_72
+    21300056: stroke3-spritesheet_73
+    21300058: stroke3-spritesheet_75
+    21300060: stroke3-spritesheet_77
+    21300062: stroke3-spritesheet_79
+    21300064: stroke3-spritesheet_81
+    21300066: stroke3-spritesheet_83
+    21300068: stroke3-spritesheet_85
+    21300070: stroke3-spritesheet_87
+    21300072: stroke3-spritesheet_89
+    21300074: stroke3-spritesheet_91
+    21300076: stroke3-spritesheet_95
+    21300078: stroke3-spritesheet_97
+    21300080: stroke3-spritesheet_99
+    21300082: stroke3-spritesheet_101
+    21300084: stroke3-spritesheet_103
+    21300086: stroke3-spritesheet_105
+    21300088: stroke3-spritesheet_107
+    21300090: stroke3-spritesheet_109
+    21300092: stroke3-spritesheet_111
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: stroke3-spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 5814
+        width: 39
+        height: 19
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e80505aebc03734b8e02bd55afba7c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 5763
+        width: 69
+        height: 36
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6990677721d783439623303073fdf63
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 5714
+        width: 100
+        height: 36
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3715e7ae0f41b5547bcbdeaf3b661645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 5661
+        width: 129
+        height: 38
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da5b6e4f06f9654b8b93e442a9058fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 5609
+        width: 189
+        height: 37
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975db86c4708e81458c5aa6397ad25cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 5557
+        width: 160
+        height: 37
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60b0f4b8d29abf48be7978e9d18e4c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 5503
+        width: 219
+        height: 40
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95018fbe39194da43a34e6ffd7f5f45d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 5446
+        width: 249
+        height: 42
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c923a87b72ba742b6ba735bb621874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 5383
+        width: 300
+        height: 48
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b141544a6c53724dbf2141f18b244e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 5321
+        width: 279
+        height: 48
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df50844ac912c264690b2196816da4bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 5258
+        width: 320
+        height: 48
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a53ec7685c64347b39a24196622399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 5109
+        width: 340
+        height: 92
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffe5fd32f10508a45a973b966f44f36d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 4998
+        width: 362
+        height: 96
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1289e3287c32e134dbada09a6ebf48d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 4875
+        width: 380
+        height: 112
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7d4226ae600ea489cfd2d0dff89dc5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 4752
+        width: 403
+        height: 109
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d693778ff687be44ca82877d036b55cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 4623
+        width: 419
+        height: 113
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5d08333ccde54428759b34d93ff549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 4500
+        width: 439
+        height: 112
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0dbd3230c0a394788844bb2ea22c25
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 4377
+        width: 458
+        height: 112
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a3aa2eb2191cc4a976cc00c422f865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 4252
+        width: 481
+        height: 110
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626eb7ee0b680614985450790bc59e72
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 4125
+        width: 518
+        height: 112
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73425bc0ed058f645b05cf15a13117f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 4002
+        width: 500
+        height: 109
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd053afd57301ef4db3d4f3b6f1e7e20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 3877
+        width: 536
+        height: 109
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea27632269ff084d974230b582df94e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 3748
+        width: 558
+        height: 114
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc10fc8dec43a047a78f22308398cb6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 3629
+        width: 578
+        height: 108
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8238f3654fcff42abecf20b33e2ee2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 3501
+        width: 599
+        height: 111
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07028b9b97d8ec04d81e6ea56a7cc8e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 3375
+        width: 620
+        height: 112
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7698798c07d3695499301386ff7620f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 3247
+        width: 640
+        height: 114
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37595b2d5f6395d43bf08a6e0a49ac56
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 3119
+        width: 660
+        height: 114
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5afe65f286f064e8cd4c843f50cf37
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 3117
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c96fbb7dd552f47af41282db161153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 2977
+        width: 680
+        height: 124
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91782bb7991c78241ba74e754f7c1ad8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 2839
+        width: 699
+        height: 125
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7afde6d7f89c241a47002f540d3d0d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 2694
+        width: 720
+        height: 131
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d77bf6884448f94986f40b7dd4fc0cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 2546
+        width: 740
+        height: 133
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3074b435751afee44b730b9bc15bf8d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 2397
+        width: 760
+        height: 134
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3785eca5b276774c8bce654552fe02c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 2246
+        width: 780
+        height: 137
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97289dbd8e2e6ec4abab54524c8586ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 2095
+        width: 800
+        height: 137
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e07363853ea0d47a251401d5c9b482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1938
+        width: 820
+        height: 144
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef899198707cb064e87ffe4bc6e633b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1778
+        width: 840
+        height: 148
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ba912c1bb8db54ea13d874bff0e71a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_95
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1456
+        width: 879
+        height: 148
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2ee64815df6f74284ae2314d701d4a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_97
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1294
+        width: 900
+        height: 148
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26636de59f22cda488d3039eeb1215fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_99
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1134
+        width: 907
+        height: 148
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56563ded023f21344a95d0cf62462aca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_101
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 972
+        width: 920
+        height: 147
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cae2957164378a48a136d533d35c10e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_103
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 811
+        width: 928
+        height: 149
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f66d76e354ddfe43a3f4dfc0115c6d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_105
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 652
+        width: 940
+        height: 147
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ebf619978dab0c4b8668e1a71982fc3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_107
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 489
+        width: 948
+        height: 148
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695d46c47b0023b498b4d636d3e5b19b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_109
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 329
+        width: 960
+        height: 149
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8832b65cb58f14898f7577e4ad3b57
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke3-spritesheet_111
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 167
+        width: 968
+        height: 148
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165ea7246f90445449221703704f4ca6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f9ea59a144cc64c43b9e4ee011a70600
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

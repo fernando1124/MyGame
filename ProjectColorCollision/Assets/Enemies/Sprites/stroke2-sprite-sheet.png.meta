@@ -1,0 +1,1139 @@
+fileFormatVersion: 2
+guid: 102b6024428218d4cbdd724fe7be88e0
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: stroke2-f6
+    21300002: stroke2-f8
+    21300004: stroke2-f9
+    21300006: stroke2-f10
+    21300008: stroke2-f11
+    21300010: stroke2-f12
+    21300012: stroke2-f13
+    21300014: stroke2-f14
+    21300016: stroke2-f15
+    21300018: stroke2-f16
+    21300020: stroke2-f17
+    21300022: stroke2-f18
+    21300024: stroke2-f19
+    21300026: stroke2-f20
+    21300028: stroke2-f21
+    21300030: stroke2-f22
+    21300032: stroke2-f23
+    21300034: stroke2-f24
+    21300036: stroke2-f25
+    21300038: stroke2-f26
+    21300040: stroke2-f27
+    21300042: stroke2-f28
+    21300044: stroke2-f29
+    21300046: stroke2-f30
+    21300048: stroke2-f31
+    21300050: stroke2-f32
+    21300052: stroke2-f33
+    21300054: stroke2-f34
+    21300056: stroke2-f35
+    21300058: stroke2-f36
+    21300060: stroke2-f37
+    21300062: stroke2-f38
+    21300064: stroke2-f39
+    21300066: stroke2-f40
+    21300068: stroke2-f41
+    21300070: stroke2-f42
+    21300072: stroke2-f43
+    21300074: stroke2-f44
+    21300076: stroke2-f45
+    21300078: stroke2-f46
+    21300080: stroke2-f47
+    21300082: stroke2-f48
+    21300084: stroke2-sprite-sheet_56
+    21300086: stroke2-f7
+    21300088: stroke2-f5
+    21300090: stroke2-f4
+    21300092: stroke2-f3
+    21300094: stroke2-f2
+    21300096: stroke2-f1
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 4
+  spritePivot: {x: 0, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: stroke2-f6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 6347
+        width: 82
+        height: 122
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a315036a43d7a204a88aa273e9d0a0ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 6065
+        width: 99
+        height: 127
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e549cdd798738f488fdc965ccd14d5d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5922
+        width: 116
+        height: 131
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b333e576cde7a4b8d92c928fcb43d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5775
+        width: 125
+        height: 136
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c9df7e731c38842a4231ea22a4b084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f11
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5633
+        width: 133
+        height: 134
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4f63eee39d75f40958e45df7cdf7ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f12
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5486
+        width: 146
+        height: 134
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7719f59b28b36e94bbbd8cf3a7af7be5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5336
+        width: 156
+        height: 139
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452856474feb69542b067ba4b7702129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5185
+        width: 166
+        height: 140
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c70ac52b8d018479d815cbbe1e13c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f15
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5035
+        width: 171
+        height: 142
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d494a87d10524e43ab1bade681faad1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f16
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 4884
+        width: 182
+        height: 142
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f344b6f400e3b46846509b711da9a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f17
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 4733
+        width: 192
+        height: 142
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26179a93d5645064096ec1c01fb8d9e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f18
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 4582
+        width: 199
+        height: 142
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63fe73d990123d84a90da2446233213b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4435
+        width: 219
+        height: 137
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87cb6f09fe1747a498c2d6f4c8f0fa5e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4285
+        width: 224
+        height: 138
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86983ae0fa3a6ea48b4b96582657e974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4130
+        width: 235
+        height: 142
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc7913f03ef2ea4ba600fdd2c51a540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3979
+        width: 245
+        height: 142
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0773440893f6854d99e09da2cc779e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f23
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 3828
+        width: 250
+        height: 142
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9544b2a9d206dad4f9d04addd7914952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3677
+        width: 265
+        height: 142
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d50e227b205c07041bdba1c6c6de7d78
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f25
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3526
+        width: 271
+        height: 142
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b27c203bf7be34596c83e68383f7ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f26
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 3374
+        width: 281
+        height: 143
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8905fbca8b3a854fbf367707d01ba31
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3223
+        width: 296
+        height: 143
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1a45cd9555b2940bd5be016855ef1b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3073
+        width: 306
+        height: 142
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13eb2519c93dd5d47bbbd0d76ee0e6d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2925
+        width: 317
+        height: 139
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc132b9c30ca94d4299453908cc1d37c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2773
+        width: 327
+        height: 140
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8817fe628d76cb842819be35a03daa95
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2620
+        width: 334
+        height: 143
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677da50f173362042ba64aea24e0d3e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2470
+        width: 344
+        height: 142
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a76e18b712122840a3d850c11bf02a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f33
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2318
+        width: 350
+        height: 143
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea8b8d83d5aca849b9525fcae2ed3fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f34
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2167
+        width: 360
+        height: 143
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f1003ad86337e48bab6db426387ee3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2016
+        width: 375
+        height: 143
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74e3d3d08e50ce4d873532ade0f586b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f36
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1865
+        width: 380
+        height: 143
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b4bba4e8182454cbf9084bc4a01b50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1714
+        width: 396
+        height: 143
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d29be83cdd691c4792f2634eb199871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1564
+        width: 411
+        height: 142
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1b72340528ce44fa02b4cda9ff5a68
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1411
+        width: 416
+        height: 143
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f78ee0365927e498dbb5dd9ee848f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1254
+        width: 426
+        height: 146
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98fc3e5ad080fd2428ae30a5c35fbada
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1097
+        width: 439
+        height: 151
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfaa74ded6ab964418b2cdf17076b81f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 942
+        width: 452
+        height: 143
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3dcbb284695df4e95725e358923a79
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 787
+        width: 455
+        height: 146
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e46ee0c5bc21941a22b36e7b6ed295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f44
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 629
+        width: 459
+        height: 144
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6b091776ca82244bc8c8b912ebca5f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f45
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 475
+        width: 469
+        height: 144
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd55b91a960d544b80cf2baef5c773e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f46
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 315
+        width: 480
+        height: 153
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4035820b4ecc1544aad4f2e017d3914c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 163
+        width: 495
+        height: 144
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d3892d59f27774b93f771865c2bc3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f48
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 9
+        width: 497
+        height: 142
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c7768348885e54e93fbbd072280e52
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-sprite-sheet_56
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 5
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63157d05834156847a719f61ea1a627b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f7
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 6206
+        width: 92
+        height: 126
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568d50eb0710262468aa256c4a53ef63
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f5
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 6494
+        width: 67
+        height: 111
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a14872170096d4ea65287b53c07951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f4
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 6619
+        width: 60
+        height: 110
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469fc8c7082c76247ab8ecd286cfd627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f3
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 6741
+        width: 49
+        height: 103
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924f3108fe5c99b4a8267756352db78d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f2
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 6855
+        width: 38
+        height: 98
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a418610ca2d95d4f941448d5457b0b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stroke2-f1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 6967
+        width: 33
+        height: 52
+      alignment: 4
+      pivot: {x: 0, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ae63e8f0e68e34e8ea3c74d961157c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 418293f35c70d734a86c66ca7913dd7d
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

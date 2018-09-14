@@ -81,6 +81,7 @@ public class EnemySpawnController : MonoBehaviour, FinishableComponent {
         instance.GetComponentsInChildren<Transform>()[1].eulerAngles = enemy.getRotation();
         instance.GetComponentInChildren<SpriteRenderer>().color = enemy.getColor();
         instance.GetComponentInChildren<SpriteRenderer>().material.color = enemy.getColor();
+        instance.GetComponentInChildren<SpriteRenderer>().flipY = enemy.isFlipY();
     }
 
     public bool finish() {

@@ -11,7 +11,7 @@ public class EnemyBodyController : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D collider) {
         if(collider.gameObject.tag.Equals(OBJECT_COLLECTOR)) {
-            GameObject.Destroy(this.gameObject);
+            GameObject.Destroy(this.gameObject.transform.parent.gameObject);
         }
     }
 }

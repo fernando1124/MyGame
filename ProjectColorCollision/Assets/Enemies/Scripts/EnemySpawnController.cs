@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemySpawnController : MonoBehaviour, FinishableComponent {
     private const string FN_RESTORE_SPAWN = "restoreSpawn";
 
+    private Transform parentTransform;
     private Transform[] spawnPoints;
     private AudioSource audioController;
     private AudioProcessor audioProcessor;
@@ -15,6 +16,7 @@ public class EnemySpawnController : MonoBehaviour, FinishableComponent {
         spawnPoints = this.GetComponentsInChildren<Transform>();
         audioController = this.GetComponent<AudioSource>();
         audioProcessor = this.GetComponent<AudioProcessor>();
+        parentTransform = this.GetComponent<Transform>();
 
         GameController.getInstance().suscribeToGame(this);
     }
@@ -77,11 +79,17 @@ public class EnemySpawnController : MonoBehaviour, FinishableComponent {
     }
 
     private void spawnEnemyAt(EnemyData enemy, Vector3 position) {
-        GameObject instance = Instantiate(Resources.Load<GameObject>(enemy.getPrefab()), position, Quaternion.identity);
-        instance.GetComponentsInChildren<Transform>()[1].eulerAngles = enemy.getRotation();
-        instance.GetComponentInChildren<SpriteRenderer>().color = enemy.getColor();
-        instance.GetComponentInChildren<SpriteRenderer>().material.color = enemy.getColor();
-        instance.GetComponentInChildren<SpriteRenderer>().flipY = enemy.isFlipY();
+        GameObject enemyObject = Resources.Load<GameObject>(enemy.getPrefab());
+        enemyObject.GetComponentsInChildren<Transform>()[1].eulerAngles = enemy.getRotation();
+        enemyObject.GetComponentInChildren<SpriteRenderer>().color = enemy.getColor();
+        enemyObject.GetComponentInChildren<SpriteRenderer>().flipY = enemy.isFlipY();
+
+        Instantiate(enemyObject, position, Quaternion.identity, parentTransform);
+        //GameObject instance = Instantiate(Resources.Load<GameObject>(enemy.getPrefab()), position, Quaternion.identity);
+        //instance.GetComponentsInChildren<Transform>()[1].eulerAngles = enemy.getRotation();
+        //instance.GetComponentInChildren<SpriteRenderer>().color = enemy.getColor();
+        //instance.GetComponentInChildren<SpriteRenderer>().material.color = enemy.getColor();
+        //instance.GetComponentInChildren<SpriteRenderer>().flipY = enemy.isFlipY();
     }
 
     public bool finish() {

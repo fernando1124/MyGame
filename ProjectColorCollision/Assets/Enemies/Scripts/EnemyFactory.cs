@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyFactory {
-    private static string[] ENEMY_PREFABS = new string[] { "Enemies/Prefab/Stroke2", "Enemies/Prefab/Stroke3" };
+    private static string[] ENEMY_PREFABS = new string[] { "Enemies/Prefab/Stroke2"};
 
     public static EnemyData createBasicEnemy() {
         return new EnemyData(generateRandomPrefab(), generateColor(), generateRandomRotation(), generateRandomFlipY());

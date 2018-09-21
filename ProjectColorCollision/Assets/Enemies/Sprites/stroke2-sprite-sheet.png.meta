@@ -530,7 +530,7 @@ TextureImporter:
         x: 5
         y: 3374
         width: 281
-        height: 143
+        height: 142
       alignment: 4
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -550,7 +550,7 @@ TextureImporter:
         x: 0
         y: 3223
         width: 296
-        height: 143
+        height: 142
       alignment: 4
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -590,7 +590,7 @@ TextureImporter:
         x: 0
         y: 2925
         width: 317
-        height: 139
+        height: 142
       alignment: 4
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -610,7 +610,7 @@ TextureImporter:
         x: 0
         y: 2773
         width: 327
-        height: 140
+        height: 142
       alignment: 4
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -630,7 +630,7 @@ TextureImporter:
         x: 0
         y: 2620
         width: 334
-        height: 143
+        height: 142
       alignment: 4
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -670,7 +670,7 @@ TextureImporter:
         x: 5
         y: 2318
         width: 350
-        height: 143
+        height: 142
       alignment: 4
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -690,7 +690,7 @@ TextureImporter:
         x: 5
         y: 2167
         width: 360
-        height: 143
+        height: 142
       alignment: 4
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -730,7 +730,7 @@ TextureImporter:
         x: 5
         y: 1865
         width: 380
-        height: 143
+        height: 142
       alignment: 4
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -750,7 +750,7 @@ TextureImporter:
         x: 0
         y: 1714
         width: 396
-        height: 143
+        height: 142
       alignment: 4
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -790,7 +790,7 @@ TextureImporter:
         x: 0
         y: 1411
         width: 416
-        height: 143
+        height: 142
       alignment: 4
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -810,7 +810,7 @@ TextureImporter:
         x: 0
         y: 1254
         width: 426
-        height: 146
+        height: 142
       alignment: 4
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -830,7 +830,7 @@ TextureImporter:
         x: 0
         y: 1097
         width: 439
-        height: 151
+        height: 142
       alignment: 4
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -850,7 +850,7 @@ TextureImporter:
         x: 0
         y: 942
         width: 452
-        height: 143
+        height: 142
       alignment: 4
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -870,7 +870,7 @@ TextureImporter:
         x: 0
         y: 787
         width: 455
-        height: 146
+        height: 142
       alignment: 4
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -890,7 +890,7 @@ TextureImporter:
         x: 5
         y: 629
         width: 459
-        height: 144
+        height: 142
       alignment: 4
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -910,7 +910,7 @@ TextureImporter:
         x: 5
         y: 475
         width: 469
-        height: 144
+        height: 142
       alignment: 4
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -928,9 +928,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 5
-        y: 315
+        y: 326
         width: 480
-        height: 153
+        height: 135
       alignment: 4
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -950,7 +950,7 @@ TextureImporter:
         x: 0
         y: 163
         width: 495
-        height: 144
+        height: 142
       alignment: 4
       pivot: {x: 0, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -979,26 +979,6 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: b4c7768348885e54e93fbbd072280e52
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: stroke2-sprite-sheet_56
-      rect:
-        serializedVersion: 2
-        x: 403
-        y: 5
-        width: 13
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 63157d05834156847a719f61ea1a627b
       vertices: []
       indices: 
       edges: []
